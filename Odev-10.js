@@ -1,9 +1,11 @@
-/* 
-1. Bir diziyi küçükten büyüğe sıralamak için sort metodunu kullanın.
+const numberArray = [3, 1, 4, 1, 5, 9, 2, 6, 5];
 
-Örnek Dizi: [3, 1, 4, 1, 5, 9, 2, 6, 5]
+numberArray.sort((a, b) => a - b);
 
-Bir diziyi alfabetik olarak sıralamak için sort metodunu kullanın.
+console.log(numberArray);
 
-Örnek Dizi: ['banana', 'apple', 'cherry', 'date']
-*/
+const stringArray = ['banana', 'apple', 'cherry', 'date'];
+
+stringArray.sort();
+
+console.log(stringArray);
